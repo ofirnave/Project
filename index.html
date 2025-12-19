@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basketball hub</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
             <div class="header__wrap">
                 <div class="logo"></div>
                 <h1>welcome to the Basketball hub</h1>
-                    <nav>
+                    <nav class="navbar">
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
@@ -24,27 +25,92 @@
     </header>
 
     <main>
-        <section class="section" id="section1">
+        
+
+        <section class="cards" id="section2">
             <div class="container">
-                <h2>Section 1</h2>
-                <p>This is an example text for the first section.</p>
-                <img src="images/1.jpg" alt="Example image" />
+                <div class="cards__wrap">
+
+                    <!-- LeBron James -->
+                    <div class="card">
+                        <img src="images/lebron.jpg" alt="LeBron James" />
+                        <h3>Lebron James</h3>
+                        <p>LeBron James is one of the greatest basketball players in history. Known for his strength, IQ, and leadership, he has won multiple NBA championships and continues to dominate even at an older age.</p>
+                        <a href="https://www.nba.com/player/2544/lebron-james">Read more</a>
+                        <button class="like__btn">👍 Like</button>
+                        <p class="info">Updated: 2025 • Views: 850</p>
+                    </div>
+
+                    <!-- Deni Avdija -->
+                    <div class="card">
+                        <img src="images/deni.jpg" alt="Deni Avdija" />
+                        <h3>Deni Avdija</h3>
+                        <p>Deni Avdija is one of the top Israeli basketball players in the NBA. Known for his defense, passing, and explosiveness, he continues to grow into a major role on his team.</p>
+                        <a href="https://www.nba.com/player/1630166/deni-avdija">Read more</a>
+                        <button class="like__btn">👍 Like</button>
+                        <p class="info">Updated: 2025 • Views: 540</p>
+                    </div>
+
+                    <!-- Stephen Curry -->
+                    <div class="card">
+                        <img src="images/curry.jpg" alt="Stephen Curry" />
+                        <h3>Stephen Curry</h3>
+                        <p>Stephen Curry is the greatest shooter of all time. He changed basketball forever with his 3-point shooting and incredible ball-handling skills.</p>
+                        <a href="https://www.nba.com/player/201939/stephen-curry">Read more</a>
+                        <button class="like__btn">👍 Like</button>
+                        <p class="info">Updated: 2025 • Views: 1,120</p>
+                    </div>
+
+                </div>
             </div>
         </section>
 
-        <section class="section" id="section2">
+        <section class="services" id="section1">
             <div class="container">
-                <h2>Section 2</h2>
-                <p>Text for the second section.</p>
+                <h2 class="services__title">Our services</h2>    
+
+                <div class="services__wrap">
+                    <div class="services__item">
+                        <img src="images/profile.png" alt="basketball" />
+                        <h2>Player Profiles </h2>
+                        <p class="text">In-depth profiles of top basketball players, including stats, career highlights, and playing style analysis.</p>
+                        <a class="services__link" href="#">Learn more</a>
+                    </div>
+                    <div class="services__item">
+                        <img src="images/statistics.png" alt="diagrame" />
+                        <h2>Game Statistics</h2>
+                        <p>Up-to-date game stats, team performance data, and detailed breakdowns of every match.</p>
+                        <a class="services__link" href="#">Learn more</a>
+                    </div>
+                    <div class="services__item">
+                        <img src="images/video.png" alt="Highlights & Videos" />
+                        <h2>Highlights & Videos</h2>
+                        <p>Watch the best dunks, clutch shots, and game-winning moments from leagues around the world.</p>
+                        <a class="services__link" href="#">Learn more</a>
+                    </div>
+                    <div class="services__item">
+                        <img src="images/analysis.png" alt="Alternate Text" />
+                        <h2>Basketball Analysis</h2>
+                        <p>Expert analysis of plays, tactics, and strategies used by teams and star players.</p>
+                        <a class="services__link" href="#">Learn more</a>
+                    </div>
+                    <div class="services__item">
+                        <img src="images/dumbbell.png" alt="Alternate Text" />
+                        <h2>Training & Tips</h2>
+                        <p>Practical drills, workout routines, and skill tips to help players improve their game.</p>
+                        <a class="services__link" href="#">Learn more</a>
+                    </div>
+                    <div class="services__item">
+                        <img src="images/news.png" alt="Alternate Text" />
+                        <h2>Basketball News</h2>
+                        <p>Latest basketball news, transfers, injuries, and updates from the NBA and international leagues.</p>
+                        <a class="services__link" href="#">Learn more</a>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="section" id="section3">
-            <div class="container">
-                <h2>Section 3</h2>
-                <p>Text for the third section.</p>
-            </div>
-        </section>
+
     </main>
         
     <footer>
